@@ -1,0 +1,39 @@
+{
+  "name": "i-simulator",
+  "version": "1.1.2",
+  "description": "A IOS simulator cli",
+  "main": "index.js",
+  "bin": {
+    "i-simulator": "./bin/i-simulator.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "config"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ios simulator"
+  ],
+  "author": "zhanfang",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "download": "^6.2.5",
+    "fs-extra": "^5.0.0",
+    "inquirer": "^5.2.0",
+    "lodash.merge": "^4.6.1",
+    "ora": "^2.0.0",
+    "plist": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanfang/i-simulator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhanfang/i-simulator/issues"
+  },
+  "homepage": "https://github.com/zhanfang/i-simulator#readme"
+}
